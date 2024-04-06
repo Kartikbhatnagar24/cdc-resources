@@ -16,12 +16,9 @@ const Homepage = () => {
           <Image src="/hero.png" alt="" fill className="object-contain" />
         </div>
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
-          {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
             Interview Preparation
           </h1>
-          {/* DESC */}
-          {/* //mek the test for intervie preparation */}
           <p className="md:text-xl"> 
             Prepare for your next interview with our resources and guides.
           </p>
