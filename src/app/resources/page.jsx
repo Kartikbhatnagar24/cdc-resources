@@ -14,14 +14,14 @@ const ResourcesPage = () => {
             <h2 class="text-2xl font-bold mb-4">ML/DL/AI/Data:</h2>
             <ol class="list-decimal pl-6">
               <li class="mb-2">
-                Revise 'C’ and learn C++/Java & Python. Practice a lot. It will
-                help in the long run. If possible, try to learn 'R’ but only
+                Revise C and learn C++/Java & Python. Practice a lot. It will
+                help in the long run. If possible, try to learn R but only
                 after Python.
               </li>
-              <li class="mb-2">Complete 'Analytics Edge’ by edX.</li>
+              <li class="mb-2">Complete Analytics Edge by edX.</li>
               <li class="mb-2">
-                Complete the ‘Machine Learning’ course by 'Andrew NG’ available
-                on 'Coursera’ or Youtube.
+                Complete the ‘Machine Learning course by Andrew NG available
+                on Coursera or Youtube.
               </li>
               <li class="mb-2">
                 Complete Five modules of deeplearning.ai (
@@ -32,7 +32,7 @@ const ResourcesPage = () => {
                 >
                   https://www.deeplearning.ai
                 </a>
-                ). Check it out; it's really a good one. It’s also available on
+                ). Check it out; its really a good one. Its also available on
                 YouTube.
               </li>
               <li class="mb-2">
@@ -41,11 +41,11 @@ const ResourcesPage = () => {
                 Student Developer Pack.
               </li>
               <li class="mb-2">
-                Create an account on 'Kaggle’ and take courses on Data Analytics
+                Create an account on Kaggle and take courses on Data Analytics
                 there.
               </li>
               <li>
-                Create an account on 'Analytics Vidhya’. They keep updating
+                Create an account on Analytics Vidhya. They keep updating
                 about various competitions happening throughout the year.
               </li>
             </ol>
