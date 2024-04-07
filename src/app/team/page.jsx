@@ -25,7 +25,7 @@ const TeamPage = () => {
           <div className="flex gap-4 mt-4">
             {/* LinkedIn Icon */}
             <a
-              href="https://www.linkedin.com/in/divyansh-singh-rana-9a3b7b1b9/"
+              href="https://www.linkedin.com/in/divyanshsinghrana/"
               target="_blank"
               rel="noreferrer"
             >
