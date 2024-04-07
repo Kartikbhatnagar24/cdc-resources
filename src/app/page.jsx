@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -24,12 +25,12 @@ const Homepage = () => {
             Prepare for your next interview with our resources and guides.
           </p>
           <div className="w-full flex gap-4 items-center justify-center">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <Link  href="/resources" className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               Explore Now
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            </Link>
+            <Link  href="/contact" className="p-4 rounded-lg ring-1 ring-black">
               Contact Us
-            </button>
+            </Link>
           </div>
         </div>
       </div>
