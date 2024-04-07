@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 const links = [
   { url: "/", title: "Home" },
   { url: "/resources", title: "Resources" },
-  // { url: "/portfolio", title: "Portfolio" },
   { url: "/contact", title: "Contact" },
+  {url:"/tables", title:"Tables"},
 ];
 
 const Navbar = () => {
@@ -77,9 +77,7 @@ const Navbar = () => {
         ))}
       </div>    
       
-      {/* RESPONSIVE MENU */}
-      <div className="md:hidden">
-        {/* MENU BUTTON */}
+      <div className="md:hidden">pm 
         <button
           className="w-10 h-8 flex flex-col justify-between z-50 relative"
           onClick={() => setOpen((prev) => !prev)}
