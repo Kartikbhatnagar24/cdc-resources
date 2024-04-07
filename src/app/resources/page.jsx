@@ -12,49 +12,48 @@ const ResourcesPage = () => {
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-  <div class="bg-white p-6 rounded-lg shadow-md">
-    <h2 class="text-2xl font-bold mb-4">ML/DL/AI/Data:</h2>
-    <ol class="list-decimal pl-6">
-      <li class="mb-2">
-        Revise C and learn C++/Java & Python. Practice a lot. It will
-        help in the long run. If possible, try to learn R but only
-        after Python.
-      </li>
-      <li class="mb-2">Complete Analytics Edge by edX.</li>
-      <li class="mb-2">
-        Complete the ‘Machine Learning course by Andrew NG available
-        on Coursera or Youtube.
-      </li>
-      <li class="mb-2">
-        Complete Five modules of deeplearning.ai (
-        <a
-          href="https://www.deeplearning.ai"
-          class="text-blue-500"
-          target="_blank"
-          style={{"word-break": "break-all"}}
-        >
-          https://www.deeplearning.ai
-        </a>
-        ). Check it out; its really a good one. Its also available on
-        YouTube.
-      </li>
-      <li class="mb-2">
-        You can learn Data Science at DataCamp at your own pace using
-        the free 3-month individual subscription through the Github
-        Student Developer Pack.
-      </li>
-      <li class="mb-2">
-        Create an account on Kaggle and take courses on Data Analytics
-        there.
-      </li>
-      <li>
-        Create an account on Analytics Vidhya. They keep updating
-        about various competitions happening throughout the year.
-      </li>
-    </ol>
-  </div>
-</div>
-
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">ML/DL/AI/Data:</h2>
+            <ol class="list-decimal pl-6">
+              <li class="mb-2">
+                Revise C and learn C++/Java & Python. Practice a lot. It will
+                help in the long run. If possible, try to learn R but only after
+                Python.
+              </li>
+              <li class="mb-2">Complete Analytics Edge by edX.</li>
+              <li class="mb-2">
+                Complete the ‘Machine Learning course by Andrew NG available on
+                Coursera or Youtube.
+              </li>
+              <li class="mb-2">
+                Complete Five modules of deeplearning.ai (
+                <a
+                  href="https://www.deeplearning.ai"
+                  class="text-blue-500"
+                  target="_blank"
+                  style={{ "word-break": "break-all" }}
+                >
+                  https://www.deeplearning.ai
+                </a>
+                ). Check it out; its really a good one. Its also available on
+                YouTube.
+              </li>
+              <li class="mb-2">
+                You can learn Data Science at DataCamp at your own pace using
+                the free 3-month individual subscription through the Github
+                Student Developer Pack.
+              </li>
+              <li class="mb-2">
+                Create an account on Kaggle and take courses on Data Analytics
+                there.
+              </li>
+              <li>
+                Create an account on Analytics Vidhya. They keep updating about
+                various competitions happening throughout the year.
+              </li>
+            </ol>
+          </div>
+        </div>
 
         <div class="bg-white p-6 rounded-lg shadow-md mt-4">
           <h2 class="text-2xl font-bold mb-4">Machine Learning Tips</h2>
@@ -67,7 +66,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/drive/folders/13gQTOTMILNmUbKKOs4ION5moWQc0jFyJ?usp=sharing"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/drive/folders/13gQTOTMILNmUbKKOs4ION5moWQc0jFyJ?usp=sharing
               </a>
@@ -83,7 +82,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/drive/folders/1_OFukZe8GmWPSS9g5ita84GCV0NF4SPw?usp=sharing"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/drive/folders/1_OFukZe8GmWPSS9g5ita84GCV0NF4SPw?usp=sharing
               </a>
@@ -102,7 +101,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/open?id=1aYZmvtHI7GWk124gQrE4Mp07soYJdS6Y"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/open?id=1aYZmvtHI7GWk124gQrE4Mp07soYJdS6Y
               </a>
@@ -113,7 +112,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/file/d/1yaVNZOZM8c8kxDgTU8AJqmxgORz0q-0s/view?usp=sharing"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/file/d/1yaVNZOZM8c8kxDgTU8AJqmxgORz0q-0s/view?usp=sharing
               </a>
@@ -124,7 +123,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/folderview?id=1_jOIFqHc7B4iFhjsxtIkJSbyGUWWWnvq"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/folderview?id=1_jOIFqHc7B4iFhjsxtIkJSbyGUWWWnvq
               </a>
@@ -135,7 +134,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/file/d/1-kFJK4NhE0IITkEQGLZhkd2s6cWHLnvr/view?usp=drivesdk"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/file/d/1-kFJK4NhE0IITkEQGLZhkd2s6cWHLnvr/view?usp=drivesdk
               </a>
@@ -146,7 +145,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/file/d/1oVSuqyKMbRwQDRepD-CaxQ63nbBDVv_M/view?usp=drivesdk"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/file/d/1oVSuqyKMbRwQDRepD-CaxQ63nbBDVv_M/view?usp=drivesdk
               </a>
@@ -157,7 +156,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/file/d/1kBlD7nzxGPMzzHP90bFhnTmnKHmdVo5M/view?usp=drivesdk"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/file/d/1kBlD7nzxGPMzzHP90bFhnTmnKHmdVo5M/view?usp=drivesdk
               </a>
@@ -203,7 +202,7 @@ const ResourcesPage = () => {
               href="https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/"
               class="text-blue-500"
               target="_blank"
-              style={{"word-break": "break-all"}}
+              style={{ "word-break": "break-all" }}
             >
               https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
             </a>
@@ -231,7 +230,7 @@ const ResourcesPage = () => {
                 href="https://projects.iq.harvard.edu/stat110/home"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://projects.iq.harvard.edu/stat110/home
               </a>
@@ -247,7 +246,7 @@ const ResourcesPage = () => {
                 href="https://www.madandmoonly.com/doctormatt/mathematics/dice1.pdf"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.madandmoonly.com/doctormatt/mathematics/dice1.pdf
               </a>
@@ -267,7 +266,7 @@ const ResourcesPage = () => {
                 href="https://www.geeksforgeeks.org/category/puzzles/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -278,7 +277,7 @@ const ResourcesPage = () => {
                 href="https://www.interviewbit.com/courses/programming/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -291,7 +290,7 @@ const ResourcesPage = () => {
                 href="https://docs.google.com/document/d/1E41DRSDA-tbdzsBh7L9a20msxwLhgwhC2Vz96Obri3Y/edit"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://docs.google.com/document/d/1E41DRSDA-tbdzsBh7L9a20msxwLhgwhC2Vz96Obri3Y/edit
               </a>
@@ -317,7 +316,7 @@ const ResourcesPage = () => {
                 href="https://cp-algorithms.com/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://cp-algorithms.com/
               </a>
@@ -328,7 +327,7 @@ const ResourcesPage = () => {
                 href="https://drive.google.com/file/d/1UI_5yAdnDrttxTcrhwQJ8iOZjFRNR8Nr/view?usp=sharing"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://drive.google.com/file/d/1UI_5yAdnDrttxTcrhwQJ8iOZjFRNR8Nr/view?usp=sharing
               </a>
@@ -340,7 +339,7 @@ const ResourcesPage = () => {
                 href="https://www.youtube.com/watch?v=zWg7U0OEAoE&list=PLBF3763AF2E1C572F"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.youtube.com/watch?v=zWg7U0OEAoE&list=PLBF3763AF2E1C572F
               </a>
@@ -354,7 +353,7 @@ const ResourcesPage = () => {
                 href="https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/
               </a>
@@ -378,7 +377,7 @@ const ResourcesPage = () => {
                 href="http://personal.denison.edu/~havill/style.pdf?fbclid=IwAR1BtDQGJQBm1z0TYLjyos2sFGdrAAH_9pUelrrl5v-1A8cP2RNA9ZE2bFs"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 http://personal.denison.edu/~havill/style.pdf?fbclid=IwAR1BtDQGJQBm1z0TYLjyos2sFGdrAAH_9pUelrrl5v-1A8cP2RNA9ZE2bFs
               </a>
@@ -394,7 +393,7 @@ const ResourcesPage = () => {
                 href="https://www.topcoder.com/community/competitive-programming/tutorials/binary-search"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.topcoder.com/community/competitive-programming/tutorials/binary-search
               </a>
@@ -406,7 +405,7 @@ const ResourcesPage = () => {
                 href="https://www.geeksforgeeks.org/bits-manipulation-important-tactics/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.geeksforgeeks.org/bits-manipulation-important-tactics/
               </a>
@@ -417,7 +416,7 @@ const ResourcesPage = () => {
                 href="https://docs.google.com/document/d/1VVxbGtPR6eNM8AMFv5VYX8S_k1Ksh3VfiihmqavdW5Q/edit?usp=sharing"
                 class="text-blue-500 whitespace-normal block"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://docs.google.com/document/d/1VVxbGtPR6eNM8AMFv5VYX8S_k1Ksh3VfiihmqavdW5Q/edit?usp=sharing
               </a>
@@ -428,7 +427,7 @@ const ResourcesPage = () => {
                 href="https://docs.google.com/document/d/1MdZlrGHEmIUtrhDDjpguTH-dzytA_MNScCEwPSETHTQ/edit"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://docs.google.com/document/d/1MdZlrGHEmIUtrhDDjpguTH-dzytA_MNScCEwPSETHTQ/edit
               </a>
@@ -437,7 +436,7 @@ const ResourcesPage = () => {
                 href="https://cp-algorithms.com/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://cp-algorithms.com/
               </a>
@@ -445,7 +444,7 @@ const ResourcesPage = () => {
                 href="https://www.interviewbit.com/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.interviewbit.com/
               </a>
@@ -457,7 +456,7 @@ const ResourcesPage = () => {
                 href="https://cp-algorithms.com/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://cp-algorithms.com/
               </a>
@@ -468,7 +467,7 @@ const ResourcesPage = () => {
                 href="https://codeforces.com/blog/entry/20935"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://codeforces.com/blog/entry/20935
               </a>
@@ -480,7 +479,7 @@ const ResourcesPage = () => {
                 href="https://www.hackerearth.com/practice/codemonk/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://www.hackerearth.com/practice/codemonk/
               </a>
@@ -491,22 +490,22 @@ const ResourcesPage = () => {
                 href="https://a2oj.com/ladders"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://a2oj.com/ladders
               </a>
             </li>
             <li class="mb-2 whitespace-normal ">
-  Topic-wise:
-  <a
-    href="https://docs.google.com/document/d/1z0Mh7F0dxMVWX2u6WEHWRYqrC4kCXyJ4KEHTkkVYdu8/edit"
-    class="text-blue-500 block "
-    target="_blank"
-    style={{"word-break": "break-all"}}
-  >
-    https://docs.google.com/document/d/1z0Mh7F0dxMVWX2u6WEHWRYqrC4kCXyJ4KEHTkkVYdu8/edit
-  </a>
-</li>
+              Topic-wise:
+              <a
+                href="https://docs.google.com/document/d/1z0Mh7F0dxMVWX2u6WEHWRYqrC4kCXyJ4KEHTkkVYdu8/edit"
+                class="text-blue-500 block "
+                target="_blank"
+                style={{ "word-break": "break-all" }}
+              >
+                https://docs.google.com/document/d/1z0Mh7F0dxMVWX2u6WEHWRYqrC4kCXyJ4KEHTkkVYdu8/edit
+              </a>
+            </li>
 
             <li class="mb-2 whitespace-normal ">
               LeetCode Practice:
@@ -514,7 +513,7 @@ const ResourcesPage = () => {
                 href="https://docs.google.com/spreadsheets/d/1L3cvv0jOKN5hh8GI7iGKG8vmQe81bOi4dBKuFV1uUss/edit#gid=1177592695"
                 class="text-blue-500 block"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 https://docs.google.com/spreadsheets/d/1L3cvv0jOKN5hh8GI7iGKG8vmQe81bOi4dBKuFV1uUss/edit#gid=1177592695
               </a>
@@ -531,7 +530,7 @@ const ResourcesPage = () => {
                 href="https://m.facebook.com/ishan.ranga/posts/3264412863648431"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -541,7 +540,7 @@ const ResourcesPage = () => {
                 href="https://docs.google.com/document/d/1o4_uJrPaah-roIQjxI2G9Uu02Y6kQ4PH7RymENy2pl4/edit"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -555,7 +554,7 @@ const ResourcesPage = () => {
                 href="https://www.linkedin.com/posts/abhishek8899_internship-interview-experience-abhishek-activity-6691662512074690560-xCgR/"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -565,7 +564,7 @@ const ResourcesPage = () => {
                 href="https://codeclub-iitkgp.medium.com/interview-blogs-archive-7849828ed381"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -575,7 +574,7 @@ const ResourcesPage = () => {
                 href="https://nitinkgp23.github.io/2020/09/23/A-to-Z-guide-to-your-campus-placements/?fbclid=IwAR3pH6HZ4KCA-DyquhbabRXttGhRH00zIhxo8jg8_Kn-GAp9xpFO5NbImWk"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -588,7 +587,7 @@ const ResourcesPage = () => {
                 href="https://github.com/jnikhilreddy/Competitive-programming-resources?fbclid%253DIwAR2rJ9ta9elC-H_HQUB2rKaMb6eJKUJw63nU11CYGlavpM0kN6NDYqoYDOQ%26amp;sa%3DD%26amp;source%3Deditors%26amp;ust%3D1712388014624777%26amp;usg%3DAOvVaw0GroMUq1DLhw39rl_wcLTB&sa=D&source=docs&ust=1712388014644410&usg=AOvVaw3kgSMtW2B69gN8v_Fs2nvS"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
@@ -598,7 +597,7 @@ const ResourcesPage = () => {
                 href="https://github.com/lnishan/awesome-competitive-programming?fbclid%253DIwAR2Wucce017r91pb_hLyOeuQGDhF3i8cVcVAUJtE3tIZP5hxev-FBdZvTpM%26amp;sa%3DD%26amp;source%3Deditors%26amp;ust%3D1712388014624777%26amp;usg%3DAOvVaw3xY5Q6u5v04TuD58aO6FVq&sa=D&source=docs&ust=1712388014644410&usg=AOvVaw3xY5Q6u5v04TuD58aO6FVq"
                 class="text-blue-500"
                 target="_blank"
-                style={{"word-break": "break-all"}}
+                style={{ "word-break": "break-all" }}
               >
                 Link
               </a>
