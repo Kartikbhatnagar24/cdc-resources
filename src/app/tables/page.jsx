@@ -617,7 +617,7 @@ const data = [
 const TablesPage = () => {
     
     return (
-        <div className="mx-auto max-w-4xl py-6">
+        <div className="mx-auto max-w-4xl py-6 m-2 rounded-lg">
             <Table columns={columns} dataSource={data} />
         </div>
     );
