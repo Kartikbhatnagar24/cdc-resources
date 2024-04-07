@@ -1,22 +1,6 @@
-import { Table } from "antd";
-const columns = [
-    {
-        title: "Name",
-        dataIndex: "name",
-        key: "name",
-    },
-    {
-        title: "Mail Address",
-        dataIndex: "mail",
-        key: "mail",
-    },
-    {
-        title: "Domain",
-        dataIndex: "domain",
-        key: "domain",
-    },
-];
-
+"use client";
+import { useState } from "react";
+import { Button, Space, Table } from "antd";
 const data = [
     {
         key: "1",
@@ -614,11 +598,101 @@ const data = [
     }
 ];
 
+
+
 const TablesPage = () => {
+    const [filteredInfo, setFilteredInfo] = useState({});
+    const [sortedInfo, setSortedInfo] = useState({});
+
+    const handleChange = (pagination, filters, sorter) => {
+        console.log('Various parameters', pagination, filters, sorter);
+        setFilteredInfo(filters);
+        setSortedInfo(sorter);
+    };
+
+    const clearFilters = () => {
+        setFilteredInfo({});
+    };
+
+    const clearAll = () => {
+        setFilteredInfo({});
+        setSortedInfo({});
+    };
+    const columns = [
+        {
+            title: "Name",
+            dataIndex: "name",
+            key: "name",
+        },
+        {
+            title: "Mail Address",
+            dataIndex: "mail",
+            key: "mail",
+        },
+        {
+            title: "Domain",
+            dataIndex: "domain",
+            key: "domain",
+            filters:[{
+                text: "Strategy",
+                value: "Strategy"
+            },
+            {
+                text: "Centre for Management in Agriculture",
+                value: "Centre for Management in Agriculture"
+            },{
+                text: "Communication",
+                value: "Communication"
+            },{
+                text: "Economics",
+                value: "Economics"
+            },{
+                text: "Finance and Accounting",
+                value: "Finance and Accounting"
+            },{
+                text: "Human Resources Management",
+                value: "Human Resources Management"
+            },{
+                text: "Information Systems",
+                value: "Information Systems"
+            },{
+                text: "Marketing",
+                value: "Marketing"
+            },{
+                text: "Organizational Behaviour",
+                value: "Organizational Behaviour"
+            },{
+                text: "Production and Quantitative Methods",
+                value: "Production and Quantitative Methods"
+            },{
+                text: "Public Systems Group",
+                value: "Public Systems Group"
+            },{
+                text: "Ravi J Matthai Centre for Educational Innovation",
+                value: "Ravi J Matthai Centre for Educational Innovation"
+            }
+            ],
+    
+            filteredValue: filteredInfo.domain || null,
+      onFilter: (value, record) => record.domain === value,
+      sorter: (a, b) => a.domain.localeCompare(b.domain),
+      sortOrder: sortedInfo.columnKey === 'domain' ? sortedInfo.order : null,
+      ellipsis: true,
+        },  
+    ];
     
     return (
         <div className="mx-auto max-w-4xl py-6 m-2 rounded-lg">
-            <Table columns={columns} dataSource={data} />
+
+<Space
+        style={{
+          marginBottom: 16,
+        }}
+      >
+        <Button onClick={clearFilters}>Clear filters</Button>
+        <Button onClick={clearAll}>Clear all</Button>
+      </Space>
+            <Table columns={columns} dataSource={data}  onChange={handleChange}/>
         </div>
     );
 }
