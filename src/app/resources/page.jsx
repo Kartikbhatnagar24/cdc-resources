@@ -11,7 +11,7 @@ const ResourcesPage = () => {
           <p className="text-lg text-gray-700 text-center">Part 1</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 m-3 md:grid-cols-2 gap-4">
           <div class="bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-2xl font-bold mb-4">ML/DL/AI/Data:</h2>
             <ol class="list-decimal pl-6">
@@ -55,7 +55,7 @@ const ResourcesPage = () => {
           </div>
         </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-md mt-4">
+        <div class="bg-white p-6 m-3 rounded-lg shadow-md mt-4">
           <h2 class="text-2xl font-bold mb-4">Machine Learning Tips</h2>
           <p class="mb-2">Supply Chain/Finance/Consultancy/UPSC/Others</p>
           <p class="mb-2">Special Thanks to Communique for these resources:</p>
@@ -187,7 +187,7 @@ const ResourcesPage = () => {
           </p>
         </div>
 
-        <div class="bg-white p-6 flex-col rounded-lg shadow-md mt-4 whitespace-normal">
+        <div class="bg-white p-6 m-3 flex-col rounded-lg shadow-md mt-4 whitespace-normal">
           <h2 class="text-2xl font-bold mb-4">Part 2</h2>
           <p>
             This Guide is not exhaustive but just a brief overview of how you
@@ -299,16 +299,16 @@ const ResourcesPage = () => {
           <p>Resources by Code Club IIT Kharagpur:-</p>
           <ul class="list-disc pl-6">
             <li class="mb-2">Must Read for Software Profile</li>
-            {/* <li class="mb-2 whitespace-normal">
+            <li class="mb-2 whitespace-normal">
               <a
                 href="https://medium.com/@ish.ranga11/the-8-month-plan-to-get-an-internship-in-your-dream-company-8195e419726a%26amp;sa%3DD%26amp;source%3Deditors%26amp;ust%3D1712388014618020%26amp;usg%3DAOvVaw1EzsByLsj7e9JQoND77v7S&sa=D&source=docs&ust=1712388014642347&usg=AOvVaw3xY5Q6u5v04TuD58aO6FVq"
-                class="text-blue-500 "
+                class="text-blue-500 block whitespace-normal"
                 target="_blank"
                 style={{"word-break": "break-all"}}
               >
                 https://medium.com/@ish.ranga11/the-8-month-plan-to-get-an-internship-in-your-dream-company-8195e419726a%26amp;sa%3DD%26amp;source%3Deditors%26amp;ust%3D1712388014618020%26amp;usg%3DAOvVaw1EzsByLsj7e9JQoND77v7S&sa=D&source=docs&ust=1712388014642347&usg=AOvVaw3xY5Q6u5v04TuD58aO6FVq
               </a>
-            </li> */}
+            </li>
             <li class="mb-2">Reading material for Software/Quant Profiles</li>
             <li class="mb-2">
               CP:
@@ -521,7 +521,7 @@ const ResourcesPage = () => {
           </ul>
         </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-md mt-4">
+        <div class="bg-white p-6  m-3 rounded-lg shadow-md mt-4">
           <h2 class="text-2xl font-bold mb-4">Interview Resources</h2>
           <p>Tips for interview:</p>
           <ul class="list-disc pl-6">
