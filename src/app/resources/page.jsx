@@ -56,8 +56,8 @@ const ResourcesPage = () => {
         </div>
 
         <div class="bg-white p-6 m-3 rounded-lg shadow-md mt-4">
-          <h2 class="text-2xl font-bold mb-4">Machine Learning Tips</h2>
-          <p class="mb-2">Supply Chain/Finance/Consultancy/UPSC/Others</p>
+          <h2 class="text-2xl font-bold mb-4">Supply Chain/Finance/Consultancy/UPSC/Others</h2>
+          {/* <p class="mb-2"></p> */}
           <p class="mb-2">Special Thanks to Communique for these resources:</p>
           <ul class="list-disc pl-6">
             <li class="mb-2">
