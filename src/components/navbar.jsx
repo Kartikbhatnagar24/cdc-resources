@@ -70,9 +70,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+    <div className="py-6 border-b-2 border-black flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-2/3">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
@@ -110,7 +110,7 @@ const Navbar = () => {
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className=""
+                className="flex justify-center items-center"
                 key={link.title}
               >
                 <Link href={link.url}>{link.title}</Link>

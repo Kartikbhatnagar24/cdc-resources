@@ -12,23 +12,19 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          
-          <Image src="/hero.png" alt="" fill className="object-contain" />
-        </div>
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 justify-center items-center">
+        <div className="h-1/2 lg:h-full w-full flex flex-col gap-8 items-center justify-center">
           <h1 className="text-4xl md:text-6xl font-bold">
             Interview Preparation
           </h1>
-          <p className="md:text-xl"> 
-            Prepare for your next interview with our resources and guides.
+          <p className="md:text-xl text-center">
+            {"Carrier Bridge offers a comprehensive platform for data, machine learning, and software resources. Connect directly with startup HR contacts for career opportunities. Whether you're a novice or an expert, unlock your potential with our tailored tools and insights."}
           </p>
           <div className="w-full flex gap-4 items-center justify-center">
-            <Link  href="/resources" className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <Link href="/resources" className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               Explore Now
             </Link>
-            <Link  href="/contact" className="p-4 rounded-lg ring-1 ring-black">
+            <Link href="/contact" className="p-4 rounded-lg ring-1 ring-black">
               Contact Us
             </Link>
           </div>
