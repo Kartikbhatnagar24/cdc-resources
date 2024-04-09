@@ -8,7 +8,7 @@ const ResourcesPage = () => {
           <h1 className="text-3xl font-bold text-center mb-4">
             CDC Preparation Resources
           </h1>
-          <p className="text-lg text-gray-700 text-center">Part 1</p>
+          {/* <p className="text-lg text-gray-700 text-center">Part 1</p> */}
         </div>
 
         <div class="bg-white p-6 m-3 rounded-lg shadow-md mt-4">
@@ -283,7 +283,10 @@ const ResourcesPage = () => {
               </a>
             </li>
           </ul>
-          <p>Quant: Resources by Quant Cub, IIT Kharagpur</p>
+          </div>
+
+          <div class="bg-white p-6 m-3 flex-col rounded-lg shadow-md mt-4 whitespace-normal">
+          <h2 class="text-2xl font-bold mb-4">Quant: Resources by Quant Cub, IIT Kharagpur</h2>
           <ul class="list-disc pl-6">
             <li class="mb-2">
               <a
@@ -296,7 +299,10 @@ const ResourcesPage = () => {
               </a>
             </li>
           </ul>
-          <p>Resources by Code Club IIT Kharagpur:-</p>
+          </div>
+
+          <div class="bg-white p-6 m-3 flex-col rounded-lg shadow-md mt-4 whitespace-normal">
+          <h2 class="text-2xl font-bold mb-4">Resources by Code Club IIT Kharagpur:-</h2>
           <ul class="list-disc pl-6">
             <li class="mb-2">Must Read for Software Profile</li>
             <li class="mb-2 whitespace-normal">
