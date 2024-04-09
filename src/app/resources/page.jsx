@@ -56,7 +56,9 @@ const ResourcesPage = () => {
         </div>
 
         <div class="bg-white p-6 m-3 rounded-lg shadow-md mt-4">
-          <h2 class="text-2xl font-bold mb-4">
+          <h2 class="text-2xl font-bold mb-4" 
+          style={{ "word-break": "break-all" }}
+          >
             Supply Chain/Finance/Consultancy/UPSC/Others
           </h2>
           {/* <p class="mb-2"></p> */}
