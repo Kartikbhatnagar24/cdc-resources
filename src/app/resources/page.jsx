@@ -11,8 +11,8 @@ const ResourcesPage = () => {
           <p className="text-lg text-gray-700 text-center">Part 1</p>
         </div>
 
-        <div class="grid grid-cols-1 m-3 md:grid-cols-2 gap-4">
-          <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-white p-6 m-3 rounded-lg shadow-md mt-4">
+          {/* <div class="bg-white p-6 rounded-lg shadow-md"> */}
             <h2 class="text-2xl font-bold mb-4">ML/DL/AI/Data:</h2>
             <ol class="list-decimal pl-6">
               <li class="mb-2">
@@ -52,7 +52,7 @@ const ResourcesPage = () => {
                 various competitions happening throughout the year.
               </li>
             </ol>
-          </div>
+          {/* </div> */}
         </div>
 
         <div class="bg-white p-6 m-3 rounded-lg shadow-md mt-4">
