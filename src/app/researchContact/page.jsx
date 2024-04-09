@@ -620,7 +620,7 @@ const TablesPage = () => {
     };
     const columns = [
         {
-            title: "Name",
+            title: "IIM Professor's Name",
             dataIndex: "name",
             key: "name",
         },
@@ -633,66 +633,65 @@ const TablesPage = () => {
             title: "Domain",
             dataIndex: "domain",
             key: "domain",
-            filters:[{
+            filters: [{
                 text: "Strategy",
                 value: "Strategy"
             },
             {
                 text: "Centre for Management in Agriculture",
                 value: "Centre for Management in Agriculture"
-            },{
+            }, {
                 text: "Communication",
                 value: "Communication"
-            },{
+            }, {
                 text: "Economics",
                 value: "Economics"
-            },{
+            }, {
                 text: "Finance and Accounting",
                 value: "Finance and Accounting"
-            },{
+            }, {
                 text: "Human Resources Management",
                 value: "Human Resources Management"
-            },{
+            }, {
                 text: "Information Systems",
                 value: "Information Systems"
-            },{
+            }, {
                 text: "Marketing",
                 value: "Marketing"
-            },{
+            }, {
                 text: "Organizational Behaviour",
                 value: "Organizational Behaviour"
-            },{
+            }, {
                 text: "Production and Quantitative Methods",
                 value: "Production and Quantitative Methods"
-            },{
+            }, {
                 text: "Public Systems Group",
                 value: "Public Systems Group"
-            },{
+            }, {
                 text: "Ravi J Matthai Centre for Educational Innovation",
                 value: "Ravi J Matthai Centre for Educational Innovation"
             }
             ],
-    
+
             filteredValue: filteredInfo.domain || null,
-      onFilter: (value, record) => record.domain === value,
-      sorter: (a, b) => a.domain.localeCompare(b.domain),
-      sortOrder: sortedInfo.columnKey === 'domain' ? sortedInfo.order : null,
-      ellipsis: true,
-        },  
+            onFilter: (value, record) => record.domain === value,
+            sorter: (a, b) => a.domain.localeCompare(b.domain),
+            sortOrder: sortedInfo.columnKey === 'domain' ? sortedInfo.order : null,
+            ellipsis: true,
+        },
     ];
-    
+
     return (
         <div className="mx-auto max-w-4xl py-6 m-2 rounded-lg">
-
-<Space
-        style={{
-          marginBottom: 16,
-        }}
-      >
-        <Button onClick={clearFilters}>Clear filters</Button>
-        <Button onClick={clearAll}>Clear all</Button>
-      </Space>
-            <Table columns={columns} dataSource={data}  onChange={handleChange}/>
+            <Space
+                style={{
+                    marginBottom: 16,
+                }}
+            >
+                <Button onClick={clearFilters}>Clear filters</Button>
+                <Button onClick={clearAll}>Clear all</Button>
+            </Space>
+            <Table columns={columns} dataSource={data} onChange={handleChange} />
         </div>
     );
 }

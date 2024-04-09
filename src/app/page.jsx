@@ -12,10 +12,13 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 justify-center items-center">
+      <div className="h-full flex flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 justify-center items-center">
         <div className="h-1/2 lg:h-full w-full flex flex-col gap-8 items-center justify-center">
+          <div>
+            <Image src={"/career.png"} width={200} height={200} alt="Logo" />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold">
-            Interview Preparation
+            Carrier Bridge
           </h1>
           <p className="md:text-xl text-center">
             {"Carrier Bridge offers a comprehensive platform for data, machine learning, and software resources. Connect directly with startup HR contacts for career opportunities. Whether you're a novice or an expert, unlock your potential with our tailored tools and insights."}

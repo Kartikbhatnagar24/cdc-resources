@@ -9,9 +9,9 @@ import { motion } from "framer-motion";
 const links = [
   { url: "/", title: "Home" },
   { url: "/resources", title: "Resources" },
-  {url:"/contact", title:"Contact Details"},
-  // { url: "/queries", title: "Queries" },
-  {url:"/team",title:"Team"}
+  { url: "/researchContact", title: "Research Contacts" },
+  { url: "/corporate_contact", title: "Corporate Contacts" },
+  { url: "/team", title: "Team" }
 ];
 
 const Navbar = () => {
@@ -76,8 +76,8 @@ const Navbar = () => {
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
-      </div>    
-      
+      </div>
+
       <div className="md:hidden">
         <button
           className="w-10 h-8 flex flex-col justify-between z-50 relative"
@@ -110,10 +110,10 @@ const Navbar = () => {
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className="flex justify-center items-center"
+                className="flex justify-center items-center text-center"
                 key={link.title}
               >
-                <Link href={link.url}>{link.title}</Link>
+                <Link href={link.url} className="text-center">{link.title}</Link>
               </motion.div>
             ))}
           </motion.div>
