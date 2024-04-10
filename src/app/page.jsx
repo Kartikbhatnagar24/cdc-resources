@@ -18,7 +18,7 @@ const Homepage = () => {
             <Image src={"/career.png"} width={200} height={200} alt="Logo" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold">
-            Carrier Bridge
+            Career Bridge
           </h1>
           <p className="md:text-xl text-center">
             {"Carrier Bridge offers a comprehensive platform for data, machine learning, and software resources. Connect directly with startup HR contacts for career opportunities. Whether you're a novice or an expert, unlock your potential with our tailored tools and insights."}
