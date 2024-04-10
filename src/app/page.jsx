@@ -21,7 +21,7 @@ const Homepage = () => {
             Career Bridge
           </h1>
           <p className="md:text-xl text-center">
-            {"Carrier Bridge offers a comprehensive platform for data, machine learning, and software resources. Connect directly with startup HR contacts for career opportunities. Whether you're a novice or an expert, unlock your potential with our tailored tools and insights."}
+            {"Career Bridge offers a comprehensive platform for data, machine learning, and software resources. Connect directly with startup HR contacts for career opportunities. Whether you're a novice or an expert, unlock your potential with our tailored tools and insights."}
           </p>
           <div className="w-full flex gap-4 items-center justify-center">
             <Link href="/resources" className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
