@@ -27,7 +27,7 @@ const Homepage = () => {
             <Link href="/resources" className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               Explore Now
             </Link>
-            <Link href="/contact" className="p-4 rounded-lg ring-1 ring-black">
+            <Link href="/team" className="p-4 rounded-lg ring-1 ring-black">
               Contact Us
             </Link>
           </div>
