@@ -90,7 +90,7 @@ const CorporateDataPage = () => {
       dataIndex: "Company Website",
       key: "Company Website",
       render: (value) => {
-        <Link href={value}>{value.length !== 0 ? "Website" : "--"}</Link>;
+        return value ? <Link href={value}>{"Website"}</Link> :"--";
       },
     },
     {
