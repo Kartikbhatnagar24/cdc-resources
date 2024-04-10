@@ -80,7 +80,7 @@ const CorporateDataPage = () => {
                 value: "Financial Services"
             }, {
                 text: "Government Administration",
-                value: "Goversnment Administration"
+                value: "Government Administration"
             }, {
                 text: "Higher Education",
                 value: "Higher Education"
