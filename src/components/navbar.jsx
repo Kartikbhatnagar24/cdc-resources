@@ -72,7 +72,7 @@ const Navbar = () => {
   return (
     <div className="py-6 border-b-2 border-black flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-2/3">
+      <div className="hidden md:flex gap-4 w-full justify-center items-center">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}

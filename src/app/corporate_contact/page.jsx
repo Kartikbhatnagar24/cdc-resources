@@ -42,19 +42,19 @@ const CorporateDataPage = () => {
             title: "Linkedin Url",
             dataIndex: "Linkedin URL",
             key: "Linkedin Url",
-            render:(value)=>{return <Link href={value} target="_blank" className="flex justify-center items-center">{value.length!==0 ? <Image src={"/linkedin.png"}  width={30} height={30} alt="Linkedin"/> : "--"}</Link>} 
+            render: (value) => { return <Link href={value} target="_blank" className="flex justify-center items-center">{value.length !== 0 ? <Image src={"/linkedin.png"} width={30} height={30} alt="Linkedin" /> : "--"}</Link> }
         },
         {
             title: "Company Linkedin",
             dataIndex: "CompLink",
             key: "Company Linkedin",
-            render:(value)=>{return <Link href={value} target="_blank" className="flex justify-center items-center">{value.length!==0 ? <Image src={"/linkedin.png"}  width={30} height={30} alt="Linkedin"/> : "--"}</Link>} 
+            render: (value) => { return <Link href={value} target="_blank" className="flex justify-center items-center">{value.length !== 0 ? <Image src={"/linkedin.png"} width={30} height={30} alt="Linkedin" /> : "--"}</Link> }
         },
         {
             title: "Company Website",
             dataIndex: "Company Website",
             key: "Company Website",
-            render:(value)=>{return <Link href={value}>{value.length!==0 ? "Website" : "--"}</Link>} 
+            render: (value) => { return <Link href={value}>{value.length !== 0 ? "Website" : "--"}</Link> }
         },
         {
             title: "Domain",
@@ -117,7 +117,7 @@ const CorporateDataPage = () => {
 
             filteredValue: filteredInfo.domain || null,
             onFilter: (value, record) => record.domain === value,
-            sorter: (a, b) => a.domain.localeCompare(b.domain),
+            sorter: (a, b) => a?.domain?.localeCompare(b?.domain),
             sortOrder: sortedInfo.columnKey === 'domain' ? sortedInfo.order : null,
             ellipsis: true,
         },
